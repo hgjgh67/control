@@ -7,7 +7,7 @@ body {
 }
 
 .imgexample1, .imgexample2 { /* Объединяем общие свойства */
-    width: 50%;
+    width: 100%;
     height: 60%;
 
     border: none;
