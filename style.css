@@ -1,18 +1,14 @@
-/* CSS styles */
-body
-{
-font-family: Impact, sans-serif;
-background-image:url('phone.jpg');
-background-size:100%; 
-background-repeat:no-repeat;
+body {
+    font-family: Impact, sans-serif;
+    background-image: url('phone.jpg');
+    background-size: cover; /* Изменено с 100% на cover */
+    background-position: center; /* Центрирование изображения */
+    background-repeat: no-repeat;
 }
 
-.img-example1 {
+.img-example1, .img-example2 { /* Объединяем общие свойства */
     width: 100%;
     height: 100%;
-    border:none;
+    object-fit: cover; /* Обеспечивает полное покрытие контейнера изображением без искажений */
+    border: none;
 }
-
-.img-example2 {
-    width: 100%;
-    height: 100%;
