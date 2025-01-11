@@ -7,7 +7,7 @@ body {
 }
 
 .imgexample1, .imgexample2 { /* Объединяем общие свойства */
-    width: 100%;
+    width: 50%;
     height: 60%;
     object-fit: cover; /* Обеспечивает полное покрытие контейнера изображением без искажений */
     border: none;
